@@ -97,6 +97,7 @@ public class BamService {
 			json = gson.toJson(dataTableObject);
 			return json;
 		} else {
+			System.out.println("Exception :" + json);
 			json = "Not Authenticated";
 		}
 
